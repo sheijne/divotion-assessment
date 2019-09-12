@@ -1,4 +1,4 @@
-# assessment.new
+# assessment
 
 ## Project setup
 ```

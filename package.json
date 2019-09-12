@@ -1,17 +1,23 @@
 {
-  "name": "assessment.new",
-  "version": "0.1.0",
+  "name": "divotion-assessment",
+  "version": "v1.0.0-beta",
   "private": true,
+  "author": "Sibbe Heijne",
+  "license": "WTFPL",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@vuex-orm/core": "^0.32.2",
     "core-js": "^2.6.5",
     "vue": "^2.6.10",
     "vue-class-component": "^7.0.2",
-    "vue-property-decorator": "^8.1.0"
+    "vue-property-decorator": "^8.1.0",
+    "vuetify": "^2.0.0",
+    "vuex": "^3.0.1",
+    "vuex-class": "^0.3.2"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.11.0",
@@ -20,6 +26,8 @@
     "sass": "^1.18.0",
     "sass-loader": "^7.1.0",
     "typescript": "^3.4.3",
-    "vue-template-compiler": "^2.6.10"
+    "vue-cli-plugin-vuetify": "^0.6.3",
+    "vue-template-compiler": "^2.6.10",
+    "vuetify-loader": "^1.2.2"
   }
 }
